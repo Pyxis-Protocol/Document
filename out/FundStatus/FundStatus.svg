@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1173px" preserveAspectRatio="none" style="width:1548px;height:1173px;background:#FFFFFF;" version="1.1" viewBox="0 0 1548 1173" width="1548px" zoomAndPan="magnify"><defs/><g><rect height="26.2969" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="99" x="717.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="722.5" y="22.9951">FundStatus</text><ellipse cx="1187" cy="53.2969" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="WAITINGFORSALE"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="236" x="1069" y="140.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1069" x2="1305" y1="166.5938" y2="166.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1126.5" y="158.292">WAITINGFORSALE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="1074" y="184.5889">the owner can resetFundData()</text></g><g id="ONSALE"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="1142" y="270.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1142" x2="1232" y1="296.5938" y2="296.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="1159.5" y="288.292">ONSALE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="1147" y="314.5889">buyFund()</text></g><rect fill="#555555" height="8" style="stroke:none;stroke-width:1.0;" width="80" x="1147" y="400.2969"/><g id="CLOSE"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="380" x="643" y="485.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="643" x2="1023" y1="511.5938" y2="511.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="810" y="503.292">CLOSE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="360" x="648" y="529.5889">can fundBonus() by anyone if the bonusPeriod finish</text></g><g id="SALESFAILED"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="208" x="1320" y="568.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1320" x2="1528" y1="594.5938" y2="594.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="1379" y="586.292">SALESFAILED</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="1325" y="612.5889">user can redeem the share</text></g><ellipse cx="1485" cy="1146.2969" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="1485.5" cy="1146.7969" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><rect fill="#555555" height="8" style="stroke:none;stroke-width:1.0;" width="80" x="793" y="651.2969"/><rect fill="#555555" height="8" style="stroke:none;stroke-width:1.0;" width="80" x="442" y="758.7969"/><g id="SETTLEMENT"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="344" x="1144" y="736.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1144" x2="1488" y1="762.5938" y2="762.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="1270" y="754.292">SETTLEMENT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="324" x="1149" y="780.5889">startFundSettlement() if the closedPeriod finish</text></g><g id="LIQUIDATION"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="552" x="557" y="736.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="557" x2="1109" y1="762.5938" y2="762.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="789.5" y="754.292">LIQUIDATION</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="532" x="562" y="780.5889">startFundLiquidation() if the basicDemocracy pass a FundLiquidation proposal</text></g><g id="DefiContract"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="261" x="93.5" y="874.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="93.5" x2="354.5" y1="900.5938" y2="900.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="181" y="892.292">DefiContract</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="241" x="98.5" y="918.5889">this is the contract which will invest</text></g><g id="MultiSigWallet"><rect fill="#F1F1F1" height="68.8906" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="531" x="389.5" y="866.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="389.5" x2="920.5" y1="892.5938" y2="892.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="608" y="884.292">MultiSigWallet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="377" x="394.5" y="910.5889">this is the multiSigWallet that control by fund managers</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="511" x="394.5" y="926.8857">it will excute the invest policy when the multiSigWallet pass the transaction</text></g><rect fill="#555555" height="8" style="stroke:none;stroke-width:1.0;" width="80" x="1024" y="896.7969"/><rect fill="#555555" height="8" style="stroke:none;stroke-width:1.0;" width="80" x="1232" y="49.2969"/><g id="REDEMPTION"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="338" x="195" y="1012.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="195" x2="533" y1="1038.5938" y2="1038.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="317.5" y="1030.292">REDEMPTION</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="318" x="200" y="1056.5889">user can redeem the share or buy more share</text></g><g id="STOP"><rect fill="#F1F1F1" height="52.5938" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="240" x="1238" y="1012.2969"/><line style="stroke:#181818;stroke-width:0.5;" x1="1238" x2="1478" y1="1038.5938" y2="1038.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="1339" y="1030.292">STOP</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="220" x="1243" y="1056.5889">user can only redeem the share</text></g><g id="elem_GMN17086"><path d="M207,1126.2969 L207,1166.5625 A0,0 0 0 0 207,1166.5625 L521,1166.5625 A0,0 0 0 0 521,1166.5625 L521,1136.2969 L511,1126.2969 L368,1126.2969 L364,1065.3369 L360,1126.2969 L207,1126.2969 A0,0 0 0 0 207,1126.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M511,1126.2969 L511,1136.2969 L521,1136.2969 L511,1126.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="293" x="213" y="1143.3638">if the share can not reach the minRaiseShare.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="213" y="1158.4966">it still can be close.</text></g><!--MD5=[8a6458e4c00095e820f5cf6980ca7219]
+link *start to WAITINGFORSALE--><g id="link_*start_WAITINGFORSALE"><path d="M1187,63.4169 C1187,78.8669 1187,110.8169 1187,134.9469 " fill="none" id="*start-to-WAITINGFORSALE" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1187,139.9669,1191,130.9669,1187,134.9669,1183,130.9669,1187,139.9669" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="1188" y="106.3638">the fund created</text></g><!--MD5=[2c5f69551ed85944013ea4394f95bd3a]
+link WAITINGFORSALE to ONSALE--><g id="link_WAITINGFORSALE_ONSALE"><path d="M1187,193.3969 C1187,214.0569 1187,243.2069 1187,265.1269 " fill="none" id="WAITINGFORSALE-to-ONSALE" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1187,270.2469,1191,261.2469,1187,265.2469,1183,261.2469,1187,270.2469" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="1188" y="236.3638">startFundSales()</text></g><!--MD5=[eb1e4c24977daffd38337f2d29ee3e49]
+link ONSALE to onsaleFork--><g id="link_ONSALE_onsaleFork"><path d="M1187,323.3369 C1187,346.5969 1187,379.5869 1187,394.8969 " fill="none" id="ONSALE-to-onsaleFork" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1187,400.2969,1191.0257,391.3083,1187.0143,395.2969,1183.0257,391.2855,1187,400.2969" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="1188" y="366.3638">closeFundSales()</text></g><!--MD5=[5f7751d07ab6e220061855510f364402]
+link onsaleFork to CLOSE--><g id="link_onsaleFork_CLOSE"><path d="M1176.79,408.3369 C1140.13,419.2669 1012.63,457.2669 923.67,483.7769 " fill="none" id="onsaleFork-to-CLOSE" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="918.66,485.2669,928.4281,486.5254,923.4511,483.8367,926.1398,478.8597,918.66,485.2669" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="1074" y="451.3638">startFundClosed()</text></g><!--MD5=[df09ca8f484ee2bb17f2beb63ad2d010]
+link onsaleFork to SALESFAILED--><g id="link_onsaleFork_SALESFAILED"><path d="M1191.11,408.5669 C1214.1,426.8569 1327.78,517.2669 1387.39,564.6769 " fill="none" id="onsaleFork-to-SALESFAILED" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1391.58,568.0169,1387.0276,559.2833,1387.6673,564.9039,1382.0467,565.5436,1391.58,568.0169" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="1248" y="451.3638">salesFailed()</text></g><!--MD5=[dd5ac75be379cdeec0c991174258267f]
+link SALESFAILED to *end--><g id="link_SALESFAILED_*end"><path d="M1483.87,621.3269 C1512.66,637.9869 1541,662.9869 1541,696.7969 C1541,696.7969 1541,696.7969 1541,1039.7969 C1541,1078.3569 1511.46,1116.5569 1495.29,1134.5769 " fill="none" id="SALESFAILED-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1491.87,1138.3169,1500.896,1134.3759,1495.2447,1134.6275,1494.9931,1128.9763,1491.87,1138.3169" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4071e10f697ad280994f36f2a5f21e1b]
+link CLOSE to closeFork--><g id="link_CLOSE_closeFork"><path d="M833,538.4169 C833,570.8969 833,625.1369 833,645.8769 " fill="none" id="CLOSE-to-closeFork" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="833,650.9869,837,641.9869,833,645.9869,829,641.9869,833,650.9869" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f810994778b3b96240494e8b6e6a64d7]
+link closeFork to SETTLEMENT--><g id="link_closeFork_SETTLEMENT"><path d="M846.93,659.3369 C897.2,670.3169 1072.65,708.6469 1194.1,735.1669 " fill="none" id="closeFork-to-SETTLEMENT" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1199.12,736.2669,1191.1857,730.4319,1194.2361,735.1958,1189.4721,738.2462,1199.12,736.2669" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[eedf554b6354eec5b533d4fd50083a7a]
+link closeFork to LIQUIDATION--><g id="link_closeFork_LIQUIDATION"><path d="M833,659.3369 C833,669.7269 833,704.5969 833,730.7869 " fill="none" id="closeFork-to-LIQUIDATION" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="833,735.9069,837,726.9069,833,730.9069,829,726.9069,833,735.9069" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bc9cf3cbc4c9a55cf352aec958597714]
+link closeFork to investFork--><g id="link_closeFork_investFork"><path d="M818.68,659.3669 C775.68,668.7469 644.11,698.7369 539,736.2969 C522.53,742.1769 504.19,750.7769 492.87,756.3269 " fill="none" id="closeFork-to-investFork" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="488.2,758.6369,498.0403,758.2275,492.6807,756.418,494.4901,751.0583,488.2,758.6369" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76" x="691" y="702.3638">fundInvest()</text></g><!--MD5=[2359215246fcb27dd30619fdd06072c5]
+link investFork to DefiContract--><g id="link_investFork_DefiContract"><path d="M475.08,766.8469 C463.06,772.0469 437.45,782.7169 415,789.2969 C352.68,807.5669 324.85,781.5669 272,819.2969 C254.81,831.5669 242.71,852.0869 234.96,869.3369 " fill="none" id="investFork-to-DefiContract" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="232.89,874.1069,240.1369,867.4374,234.8768,869.5186,232.7957,864.2585,232.89,874.1069" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="272" x="273" y="832.3638">if the numberOfNeedSignedAddresses &gt; 1</text></g><!--MD5=[99640f244c3bff7d9beb03954af498d3]
+link investFork to MultiSigWallet--><g id="link_investFork_MultiSigWallet"><path d="M485.94,766.8969 C502,779.5169 563.8,828.1069 608.03,862.8769 " fill="none" id="investFork-to-MultiSigWallet" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="611.99,865.9869,607.383,857.2819,608.0579,862.8984,602.4415,863.5733,611.99,865.9869" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="283" x="575" y="832.3638">if the numberOfNeedSignedAddresses &lt;= 1</text></g><!--MD5=[8c35696f8caf6081957dfc932311be92]
+link LIQUIDATION to fundSettlementJoin--><g id="link_LIQUIDATION_fundSettlementJoin"><path d="M876.45,789.3769 C931.8,821.9669 1023.9,876.1869 1054.09,893.9569 " fill="none" id="LIQUIDATION-to-fundSettlementJoin" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1058.69,896.6669,1052.9595,888.6568,1054.38,894.1324,1048.9043,895.5529,1058.69,896.6669" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="110" x="957" y="832.3638">fundSettlement()</text></g><!--MD5=[4eb80fac096c709b4eaabd78213064b2]
+link SETTLEMENT to fundSettlementJoin--><g id="link_SETTLEMENT_fundSettlementJoin"><path d="M1268.6,789.3769 C1207.97,822.0969 1106.91,876.6369 1074.41,894.1769 " fill="none" id="SETTLEMENT-to-fundSettlementJoin" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1069.8,896.6669,1079.6204,895.9181,1074.2014,894.2947,1075.8248,888.8758,1069.8,896.6669" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="110" x="1214" y="832.3638">fundSettlement()</text></g><!--MD5=[6ca93e0bff2deb1d1505849ff8c49d50]
+link fundSettlementJoin to REDEMPTION--><g id="link_fundSettlementJoin_REDEMPTION"><path d="M1053.62,904.8669 C1032.16,911.1569 981.31,925.6869 938,935.2969 C802.52,965.3469 647.54,992.6069 532.79,1011.4469 " fill="none" id="fundSettlementJoin-to-REDEMPTION" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="527.7,1012.2869,537.2246,1014.7932,532.6354,1011.4858,535.9428,1006.8966,527.7,1012.2869" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="783" y="978.3638">if it's a settlement</text></g><!--MD5=[4c92b0cd3b3d1bb501ddd0ef8ef8fd84]
+link fundSettlementJoin to STOP--><g id="link_fundSettlementJoin_STOP"><path d="M1070.69,904.8969 C1100.47,918.6669 1222.72,975.2169 1297.83,1009.9669 " fill="none" id="fundSettlementJoin-to-STOP" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1302.71,1012.2169,1296.2279,1004.8018,1298.174,1010.1134,1292.8624,1012.0595,1302.71,1012.2169" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="110" x="1239" y="978.3638">if it's a liquidation</text></g><!--MD5=[3fec59c5d27dc70307fcf4bf44583f5b]
+link STOP to *end--><g id="link_STOP_*end"><path d="M1388.74,1065.3369 C1416.04,1088.0169 1454.47,1119.9269 1473.45,1135.7069 " fill="none" id="STOP-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1477.41,1138.9969,1473.0341,1130.1735,1473.5607,1135.8058,1467.9284,1136.3324,1477.41,1138.9969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6ebcf3124062b0626bbd81f1f1e2f11a]
+link REDEMPTION to CLOSE--><g id="link_REDEMPTION_CLOSE"><path d="M228.4,1012.2869 C127.07,989.2069 6,951.2869 6,901.7969 C6,654.2969 6,654.2969 6,654.2969 C6,590.5069 393.21,547.7669 637.72,527.1269 " fill="none" id="REDEMPTION-to-CLOSE" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="642.75,526.7069,633.4489,523.4681,637.7673,527.1221,634.1133,531.4405,642.75,526.7069" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="399" x="7" y="767.3638">manager can fundContinuation() if the redemptionPeriod finish</text></g><!--MD5=[3b45b2b49e4e7e15e6172167d62c9432]
+@startuml FundStatus
+' allow_mixing
+hide empty description
+title FundStatus
+[*] - -> WAITINGFORSALE:the fund created
+WAITINGFORSALE- -> ONSALE:startFundSales()
+state onsaleFork <<fork>>
+ONSALE- ->onsaleFork:closeFundSales()
+onsaleFork- ->CLOSE:startFundClosed()
+onsaleFork- ->SALESFAILED:salesFailed()
+SALESFAILED- ->[*]
+state closeFork <<fork>>
+state investFork <<fork>>
+CLOSE- ->closeFork
+closeFork- ->SETTLEMENT
+closeFork- ->LIQUIDATION
+closeFork- ->investFork:fundInvest()
+investFork- ->DefiContract:if the numberOfNeedSignedAddresses > 1
+investFork- ->MultiSigWallet:if the numberOfNeedSignedAddresses <= 1
+
+state fundSettlementJoin <<join>>
+LIQUIDATION- ->fundSettlementJoin:fundSettlement()
+SETTLEMENT- ->fundSettlementJoin:fundSettlement()
+state fundSettlementFork <<fork>>
+fundSettlementJoin- ->REDEMPTION:if it's a settlement
+fundSettlementJoin- ->STOP:if it's a liquidation
+STOP- ->[*]
+REDEMPTION- ->CLOSE:manager can fundContinuation() if the redemptionPeriod finish
+note bottom of REDEMPTION
+if the share can not reach the minRaiseShare.
+it still can be close.
+end note
+DefiContract:this is the contract which will invest
+MultiSigWallet:this is the multiSigWallet that control by fund managers
+MultiSigWallet:it will excute the invest policy when the multiSigWallet pass the transaction
+ONSALE:buyFund()
+CLOSE: can fundBonus() by anyone if the bonusPeriod finish
+WAITINGFORSALE : the owner can resetFundData()
+SETTLEMENT:startFundSettlement() if the closedPeriod finish
+LIQUIDATION:startFundLiquidation() if the basicDemocracy pass a FundLiquidation proposal
+REDEMPTION:user can redeem the share or buy more share
+STOP:user can only redeem the share
+SALESFAILED:user can redeem the share
+@enduml
+
+@startuml FundStatus
+hide empty description
+title FundStatus
+[*] - -> WAITINGFORSALE:the fund created
+WAITINGFORSALE- -> ONSALE:startFundSales()
+state onsaleFork <<fork>>
+ONSALE- ->onsaleFork:closeFundSales()
+onsaleFork- ->CLOSE:startFundClosed()
+onsaleFork- ->SALESFAILED:salesFailed()
+SALESFAILED- ->[*]
+state closeFork <<fork>>
+state investFork <<fork>>
+CLOSE- ->closeFork
+closeFork- ->SETTLEMENT
+closeFork- ->LIQUIDATION
+closeFork- ->investFork:fundInvest()
+investFork- ->DefiContract:if the numberOfNeedSignedAddresses > 1
+investFork- ->MultiSigWallet:if the numberOfNeedSignedAddresses <= 1
+
+state fundSettlementJoin <<join>>
+LIQUIDATION- ->fundSettlementJoin:fundSettlement()
+SETTLEMENT- ->fundSettlementJoin:fundSettlement()
+state fundSettlementFork <<fork>>
+fundSettlementJoin- ->REDEMPTION:if it's a settlement
+fundSettlementJoin- ->STOP:if it's a liquidation
+STOP- ->[*]
+REDEMPTION- ->CLOSE:manager can fundContinuation() if the redemptionPeriod finish
+note bottom of REDEMPTION
+if the share can not reach the minRaiseShare.
+it still can be close.
+end note
+DefiContract:this is the contract which will invest
+MultiSigWallet:this is the multiSigWallet that control by fund managers
+MultiSigWallet:it will excute the invest policy when the multiSigWallet pass the transaction
+ONSALE:buyFund()
+CLOSE: can fundBonus() by anyone if the bonusPeriod finish
+WAITINGFORSALE : the owner can resetFundData()
+SETTLEMENT:startFundSettlement() if the closedPeriod finish
+LIQUIDATION:startFundLiquidation() if the basicDemocracy pass a FundLiquidation proposal
+REDEMPTION:user can redeem the share or buy more share
+STOP:user can only redeem the share
+SALESFAILED:user can redeem the share
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 17:34:49 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

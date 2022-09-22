@@ -1,0 +1,47 @@
+```
+
+@startuml FundStatus
+' allow_mixing
+hide empty description
+title FundStatus
+[*] --> WAITINGFORSALE:the fund created
+WAITINGFORSALE--> ONSALE:startFundSales()
+state onsaleFork <<fork>>
+ONSALE-->onsaleFork:closeFundSales()
+onsaleFork-->CLOSE:startFundClosed()
+onsaleFork-->SALESFAILED:salesFailed()
+SALESFAILED-->[*]
+state closeFork <<fork>>
+state investFork <<fork>>
+CLOSE-->closeFork
+closeFork-->SETTLEMENT
+closeFork-->LIQUIDATION
+closeFork-->investFork:fundInvest()
+investFork-->DefiContract:if the numberOfNeedSignedAddresses > 1
+investFork-->MultiSigWallet:if the numberOfNeedSignedAddresses <= 1
+
+state fundSettlementJoin <<join>>
+LIQUIDATION-->fundSettlementJoin:fundSettlement()
+SETTLEMENT-->fundSettlementJoin:fundSettlement()
+state fundSettlementFork <<fork>>
+fundSettlementJoin-->REDEMPTION:if it's a settlement
+fundSettlementJoin-->STOP:if it's a liquidation
+STOP-->[*]
+REDEMPTION-->CLOSE:manager can fundContinuation() if the redemptionPeriod finish
+note bottom of REDEMPTION
+if the share can not reach the minRaiseShare.
+it still can be close.
+end note
+DefiContract:this is the contract which will invest
+MultiSigWallet:this is the multiSigWallet that control by fund managers
+MultiSigWallet:it will excute the invest policy when the multiSigWallet pass the transaction
+ONSALE:buyFund()
+CLOSE: can fundBonus() by anyone if the bonusPeriod finish
+WAITINGFORSALE : the owner can resetFundData()
+SETTLEMENT:startFundSettlement() if the closedPeriod finish
+LIQUIDATION:startFundLiquidation() if the basicDemocracy pass a FundLiquidation proposal
+REDEMPTION:user can redeem the share or buy more share
+STOP:user can only redeem the share
+SALESFAILED:user can redeem the share
+@enduml
+```

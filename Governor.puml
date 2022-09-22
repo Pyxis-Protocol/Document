@@ -1,0 +1,31 @@
+```
+@startuml FundGovernor
+autoactivate on
+title Fund Governor
+actor User
+actor Governor
+User->Governor : propose() 
+return watting votingDelay
+deactivate Governor
+
+User->Governor: castVote()
+deactivate Governor
+group propose passed
+User->Governor:excute()
+group can excute function when Fund closed
+Governor->Fund:setFundData() 
+deactivate Fund
+Governor->Fund:setBonusData() 
+deactivate Fund
+Governor->Fund:setManageData() 
+deactivate Fund
+Governor->Fund:startFundLiquidation() , need assgin a liquidation manager
+
+deactivate Fund
+Governor->Fund:changeInvestPolicy() , will effect in the next close period
+
+deactivate Fund
+end
+end
+@enduml
+```

@@ -1,0 +1,88 @@
+```
+@startuml FundInvest
+autoactivate on
+title Fund Investment
+actor FundSponsor as Sponsor
+actor FundManager as Manager
+actor User
+participant FundSponsor
+group WAITINGFORSALE
+Sponsor->Fund:startFundSales()
+deactivate Fund
+end
+
+group ONSALE
+User->Fund:buyFund()
+return fundShared
+Sponsor->Fund:closeFundSales() when the fund reach the targetRaiseShare or the raisePeriod finish
+deactivate Fund
+
+group sale failed if can not reach the minRaiseShare
+User->Fund:redemptionAll() 
+deactivate Fund
+return asset
+else sale succeed
+Fund-> InvestPolicy: transfer raised asset to policy
+deactivate InvestPolicy
+end
+end
+
+group the Fund closed
+
+loop manager invest
+Manager->Fund:fundInvest()
+Fund->InvestPolicy:invest()
+InvestPolicy->Defi:defiFunctionCall() 
+deactivate InvestPolicy
+deactivate Defi
+deactivate Fund
+end
+
+loop bonus per bonus period
+User->Fund:fundBonus() 
+deactivate Fund
+end
+
+Manager->Fund:startFundSettlement() when the close period finish
+deactivate Fund
+Manager->Fund:settlement()
+Fund->InvestPolicy:settle() the defi
+InvestPolicy->Defi:defiFunctionCall()
+deactivate InvestPolicy
+deactivate Defi
+deactivate Fund
+Manager->Fund:withraw() from defi
+Fund->InvestPolicy:withdrawFromDefi()
+InvestPolicy->Defi:defiFunctionCall()
+return return the assets
+deactivate Defi
+deactivate InvestPolicy
+deactivate Fund
+User->Fund:fundSettlement()
+Fund->InvestPolicy:withdrawAfterSettle()
+return return the assets
+deactivate InvestPolicy
+deactivate Fund
+end
+
+group redemption or liquidation
+User->Fund:redemptionAll() 
+return asset
+group redemption
+User->Fund:redemptionByShare()
+return asset
+User->Fund: buyFund()
+return share
+Manager->Fund:fundContinuation() after the redempition periods, the fund will be closed again
+deactivate Fund
+end
+end
+
+User->Fund:withdrawFundBonus()
+return bonus
+note right 
+user can withdraw fund bonus manually,
+but it also distribute the bonus when user do the 'erc20' thing, like transfer,burn...etc
+end note
+@enduml
+```
